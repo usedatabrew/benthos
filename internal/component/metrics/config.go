@@ -13,6 +13,7 @@ type Config struct {
 	Mapping    string           `json:"mapping" yaml:"mapping"`
 	JSONAPI    JSONAPIConfig    `json:"json_api" yaml:"json_api"`
 	InfluxDB   InfluxDBConfig   `json:"influxdb" yaml:"influxdb"`
+	InfluxDBV2 InfluxDBV2Config `json:"influxdb_v2" yaml:"influxdb_v2"`
 	None       struct{}         `json:"none" yaml:"none"`
 	Prometheus PrometheusConfig `json:"prometheus" yaml:"prometheus"`
 	Statsd     StatsdConfig     `json:"statsd" yaml:"statsd"`
