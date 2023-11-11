@@ -8,8 +8,8 @@ import (
 	"github.com/PaesslerAG/jsonpath"
 	"github.com/generikvault/gvalstrings"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
+	"github.com/usedatabrew/benthos/v4/public/bloblang"
 )
 
 // jsonPathLanguage includes the full gval scripting language and the single quote extension.

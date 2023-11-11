@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/component/processor"
+	"github.com/usedatabrew/benthos/v4/internal/manager/mock"
+	"github.com/usedatabrew/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/public/bloblang"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 func TestParseLogCases(t *testing.T) {

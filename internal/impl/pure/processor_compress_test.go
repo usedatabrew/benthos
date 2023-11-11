@@ -13,9 +13,9 @@ import (
 	"github.com/klauspost/pgzip"
 	"github.com/pierrec/lz4/v4"
 
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/component/processor"
+	"github.com/usedatabrew/benthos/v4/internal/manager/mock"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 func TestCompressBadAlgo(t *testing.T) {

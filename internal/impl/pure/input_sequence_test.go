@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/require"
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
+	"github.com/usedatabrew/benthos/v4/internal/component/input"
+	"github.com/usedatabrew/benthos/v4/internal/manager/mock"
 )
 
 func writeFiles(t *testing.T, dir string, nameToContent map[string]string) {

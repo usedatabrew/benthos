@@ -12,19 +12,19 @@ import (
 
 	"github.com/gocql/gocql"
 
-	"github.com/benthosdev/benthos/v4/internal/batch/policy"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/mapping"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/output/batcher"
-	"github.com/benthosdev/benthos/v4/internal/component/output/processors"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	btls "github.com/benthosdev/benthos/v4/internal/tls"
+	"github.com/usedatabrew/benthos/v4/internal/batch/policy"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/mapping"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
+	"github.com/usedatabrew/benthos/v4/internal/bundle"
+	"github.com/usedatabrew/benthos/v4/internal/component"
+	"github.com/usedatabrew/benthos/v4/internal/component/metrics"
+	"github.com/usedatabrew/benthos/v4/internal/component/output"
+	"github.com/usedatabrew/benthos/v4/internal/component/output/batcher"
+	"github.com/usedatabrew/benthos/v4/internal/component/output/processors"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/log"
+	"github.com/usedatabrew/benthos/v4/internal/message"
+	btls "github.com/usedatabrew/benthos/v4/internal/tls"
 )
 
 func init() {

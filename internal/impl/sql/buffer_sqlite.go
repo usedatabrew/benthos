@@ -14,8 +14,8 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/vmihailenco/msgpack/v5"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/component"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 // SQLiteBufferConfig returns a config spec for an SQLite buffer.

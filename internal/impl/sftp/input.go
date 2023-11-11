@@ -10,16 +10,16 @@ import (
 
 	"github.com/pkg/sftp"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/codec"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/input/processors"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	sftpSetup "github.com/benthosdev/benthos/v4/internal/impl/sftp/shared"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/bundle"
+	"github.com/usedatabrew/benthos/v4/internal/codec"
+	"github.com/usedatabrew/benthos/v4/internal/component"
+	"github.com/usedatabrew/benthos/v4/internal/component/cache"
+	"github.com/usedatabrew/benthos/v4/internal/component/input"
+	"github.com/usedatabrew/benthos/v4/internal/component/input/processors"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	sftpSetup "github.com/usedatabrew/benthos/v4/internal/impl/sftp/shared"
+	"github.com/usedatabrew/benthos/v4/internal/log"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 func init() {

@@ -16,9 +16,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/integration"
+	"github.com/usedatabrew/benthos/v4/internal/integration"
 
-	_ "github.com/benthosdev/benthos/v4/internal/impl/pure"
+	_ "github.com/usedatabrew/benthos/v4/internal/impl/pure"
 )
 
 func createBucketQueue(s3Port, sqsPort, id string) error {

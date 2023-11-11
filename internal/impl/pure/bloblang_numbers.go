@@ -4,8 +4,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
+	"github.com/usedatabrew/benthos/v4/public/bloblang"
 )
 
 func registerIntMethod(name, longName, exampleIn, exampleOut string, method func(input any) (any, error)) {

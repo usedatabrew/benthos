@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	_ "github.com/benthosdev/benthos/v4/internal/impl/xml"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
+	_ "github.com/usedatabrew/benthos/v4/internal/impl/xml"
 )
 
 func TestParseXML(t *testing.T) {

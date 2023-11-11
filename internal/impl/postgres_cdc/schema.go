@@ -2,7 +2,7 @@ package postgres_cdc
 
 import (
 	"github.com/apache/arrow/go/arrow"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/public/service"
 	"github.com/usedatabrew/pglogicalstream"
 )
 

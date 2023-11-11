@@ -12,10 +12,10 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input/span"
-	"github.com/benthosdev/benthos/v4/internal/impl/nats/auth"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/component/input/span"
+	"github.com/usedatabrew/benthos/v4/internal/impl/nats/auth"
+	"github.com/usedatabrew/benthos/v4/internal/shutdown"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 func natsJetStreamInputConfig() *service.ConfigSpec {

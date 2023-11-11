@@ -6,13 +6,13 @@ import (
 	"io"
 	"os"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/codec"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/input/processors"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/bundle"
+	"github.com/usedatabrew/benthos/v4/internal/codec"
+	"github.com/usedatabrew/benthos/v4/internal/component"
+	"github.com/usedatabrew/benthos/v4/internal/component/input"
+	"github.com/usedatabrew/benthos/v4/internal/component/input/processors"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 func init() {

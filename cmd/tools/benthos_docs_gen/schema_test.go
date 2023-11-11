@@ -11,19 +11,19 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/buffer"
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
-	"github.com/benthosdev/benthos/v4/internal/component/tracer"
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/bundle"
+	"github.com/usedatabrew/benthos/v4/internal/component/buffer"
+	"github.com/usedatabrew/benthos/v4/internal/component/cache"
+	"github.com/usedatabrew/benthos/v4/internal/component/input"
+	"github.com/usedatabrew/benthos/v4/internal/component/metrics"
+	"github.com/usedatabrew/benthos/v4/internal/component/output"
+	"github.com/usedatabrew/benthos/v4/internal/component/processor"
+	"github.com/usedatabrew/benthos/v4/internal/component/ratelimit"
+	"github.com/usedatabrew/benthos/v4/internal/component/tracer"
+	"github.com/usedatabrew/benthos/v4/internal/config"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/all"
+	_ "github.com/usedatabrew/benthos/v4/public/components/all"
 )
 
 func TestComponentExamples(t *testing.T) {

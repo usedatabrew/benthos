@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
+	"github.com/usedatabrew/benthos/v4/internal/component/metrics"
+	"github.com/usedatabrew/benthos/v4/internal/manager/mock"
 )
 
 func TestInfluxTimers(t *testing.T) {

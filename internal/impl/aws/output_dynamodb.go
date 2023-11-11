@@ -17,9 +17,9 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/benthosdev/benthos/v4/internal/impl/aws/config"
-	"github.com/benthosdev/benthos/v4/internal/impl/pure"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/impl/aws/config"
+	"github.com/usedatabrew/benthos/v4/internal/impl/pure"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 const (

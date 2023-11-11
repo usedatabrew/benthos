@@ -6,10 +6,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
+	"github.com/usedatabrew/benthos/v4/internal/component"
+	"github.com/usedatabrew/benthos/v4/internal/component/input"
+	"github.com/usedatabrew/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/shutdown"
 )
 
 var _ input.Streamed = &inputWrapper{}

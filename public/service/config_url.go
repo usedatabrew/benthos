@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
 )
 
 // NewURLField defines a new config field that describes a string that should

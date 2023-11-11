@@ -15,7 +15,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/benthosdev/benthos/v4/internal/integration"
+	"github.com/usedatabrew/benthos/v4/internal/integration"
 )
 
 func generateCollectionName(testID string) string {

@@ -3,7 +3,7 @@ package batchconfig
 import (
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
+	"github.com/usedatabrew/benthos/v4/internal/component/processor"
 )
 
 // Config contains configuration parameters for a batch policy.

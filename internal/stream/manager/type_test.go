@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	bmanager "github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/stream"
+	"github.com/usedatabrew/benthos/v4/internal/component"
+	bmanager "github.com/usedatabrew/benthos/v4/internal/manager"
+	"github.com/usedatabrew/benthos/v4/internal/stream"
 )
 
 func harmlessConf() stream.Config {

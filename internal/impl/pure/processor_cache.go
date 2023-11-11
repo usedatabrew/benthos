@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/field"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/field"
+	"github.com/usedatabrew/benthos/v4/internal/bundle"
+	"github.com/usedatabrew/benthos/v4/internal/component"
+	"github.com/usedatabrew/benthos/v4/internal/component/cache"
+	"github.com/usedatabrew/benthos/v4/internal/component/processor"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 func init() {

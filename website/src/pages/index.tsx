@@ -253,7 +253,7 @@ const features = [
           Sometimes the components that come with Benthos aren't enough. Luckily, Benthos has been designed to be easily plugged with whatever components you need.
         </p>
         <p>
-          You can either write plugins <a href="https://pkg.go.dev/github.com/benthosdev/benthos/v4/public">directly in Go (recommended)</a> or you can have Benthos run your plugin as a <a href="/docs/components/processors/subprocess">subprocess</a>.
+          You can either write plugins <a href="https://pkg.go.dev/github.com/usedatabrew/benthos/v4/public">directly in Go (recommended)</a> or you can have Benthos run your plugin as a <a href="/docs/components/processors/subprocess">subprocess</a>.
         </p>
       </>
     ),

@@ -7,7 +7,7 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/usedatabrew/benthos/v4/public/bloblang"
 )
 
 type testClaims struct {

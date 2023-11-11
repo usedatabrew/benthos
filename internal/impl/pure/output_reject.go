@@ -5,13 +5,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/field"
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/output/processors"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/field"
+	"github.com/usedatabrew/benthos/v4/internal/bundle"
+	"github.com/usedatabrew/benthos/v4/internal/component/output"
+	"github.com/usedatabrew/benthos/v4/internal/component/output/processors"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/log"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 func init() {

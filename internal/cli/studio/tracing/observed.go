@@ -1,7 +1,7 @@
 package tracing
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/bundle/tracing"
+	"github.com/usedatabrew/benthos/v4/internal/bundle/tracing"
 )
 
 type ObservedSummary struct {

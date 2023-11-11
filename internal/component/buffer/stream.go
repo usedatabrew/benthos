@@ -8,13 +8,13 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/old/util/throttle"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
-	"github.com/benthosdev/benthos/v4/internal/tracing"
+	"github.com/usedatabrew/benthos/v4/internal/component"
+	"github.com/usedatabrew/benthos/v4/internal/component/metrics"
+	"github.com/usedatabrew/benthos/v4/internal/log"
+	"github.com/usedatabrew/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/old/util/throttle"
+	"github.com/usedatabrew/benthos/v4/internal/shutdown"
+	"github.com/usedatabrew/benthos/v4/internal/tracing"
 )
 
 // AckFunc is a function used to acknowledge receipt of a message batch from a

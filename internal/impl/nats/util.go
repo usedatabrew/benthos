@@ -3,7 +3,7 @@ package nats
 import (
 	"github.com/nats-io/nats.go"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 const (

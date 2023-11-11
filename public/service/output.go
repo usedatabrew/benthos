@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	ioutput "github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	ioutput "github.com/usedatabrew/benthos/v4/internal/component/output"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 // Output is an interface implemented by Benthos outputs that support single

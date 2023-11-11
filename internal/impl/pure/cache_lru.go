@@ -9,7 +9,7 @@ import (
 	lruarcv2 "github.com/hashicorp/golang-lru/arc/v2"
 	lruv2 "github.com/hashicorp/golang-lru/v2"
 
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 const (

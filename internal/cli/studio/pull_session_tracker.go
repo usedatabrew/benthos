@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/cli/studio/metrics"
-	"github.com/benthosdev/benthos/v4/internal/cli/studio/tracing"
-	"github.com/benthosdev/benthos/v4/internal/log"
+	"github.com/usedatabrew/benthos/v4/internal/cli/studio/metrics"
+	"github.com/usedatabrew/benthos/v4/internal/cli/studio/tracing"
+	"github.com/usedatabrew/benthos/v4/internal/log"
 )
 
 // DeploymentConfigMeta describes a file that makes up part of a deployment.

@@ -5,9 +5,9 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/batch/policy/batchconfig"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	"github.com/usedatabrew/benthos/v4/internal/batch/policy/batchconfig"
+	"github.com/usedatabrew/benthos/v4/internal/component/processor"
+	_ "github.com/usedatabrew/benthos/v4/public/components/pure"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

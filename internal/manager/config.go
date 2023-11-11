@@ -1,11 +1,11 @@
 package manager
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/component/ratelimit"
+	"github.com/usedatabrew/benthos/v4/internal/component/cache"
+	"github.com/usedatabrew/benthos/v4/internal/component/input"
+	"github.com/usedatabrew/benthos/v4/internal/component/output"
+	"github.com/usedatabrew/benthos/v4/internal/component/processor"
+	"github.com/usedatabrew/benthos/v4/internal/component/ratelimit"
 )
 
 // ResourceConfig contains fields for specifying resource components at the root

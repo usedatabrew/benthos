@@ -1,7 +1,7 @@
 package bundle
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
 )
 
 // Environment is a collection of Benthos component plugins that can be used in

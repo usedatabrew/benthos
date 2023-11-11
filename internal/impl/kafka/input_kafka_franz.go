@@ -12,9 +12,9 @@ import (
 	"github.com/twmb/franz-go/pkg/kgo"
 	"github.com/twmb/franz-go/pkg/sasl"
 
-	"github.com/benthosdev/benthos/v4/internal/checkpoint"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/checkpoint"
+	"github.com/usedatabrew/benthos/v4/internal/shutdown"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 func franzKafkaInputConfig() *service.ConfigSpec {

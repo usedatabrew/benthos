@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/integration"
+	"github.com/usedatabrew/benthos/v4/internal/integration"
 )
 
 func createKinesisShards(ctx context.Context, t testing.TB, awsPort, id string, numShards int) ([]string, error) {

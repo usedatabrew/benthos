@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/stream"
+	"github.com/usedatabrew/benthos/v4/internal/component/processor"
+	"github.com/usedatabrew/benthos/v4/internal/manager"
+	"github.com/usedatabrew/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/stream"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	_ "github.com/usedatabrew/benthos/v4/public/components/pure"
 )
 
 func TestTypeConstruction(t *testing.T) {

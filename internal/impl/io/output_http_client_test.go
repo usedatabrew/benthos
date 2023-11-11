@@ -18,10 +18,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/component/output"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/internal/transaction"
+	"github.com/usedatabrew/benthos/v4/internal/component/output"
+	"github.com/usedatabrew/benthos/v4/internal/manager/mock"
+	"github.com/usedatabrew/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/transaction"
 )
 
 func parseYAMLOutputConf(t testing.TB, formatStr string, args ...any) (conf output.Config) {

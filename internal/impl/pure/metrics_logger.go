@@ -7,11 +7,11 @@ import (
 
 	gmetrics "github.com/rcrowley/go-metrics"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
+	"github.com/usedatabrew/benthos/v4/internal/bundle"
+	"github.com/usedatabrew/benthos/v4/internal/component/metrics"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/log"
+	"github.com/usedatabrew/benthos/v4/internal/shutdown"
 )
 
 func init() {

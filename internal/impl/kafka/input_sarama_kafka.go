@@ -9,9 +9,9 @@ import (
 
 	"github.com/IBM/sarama"
 
-	"github.com/benthosdev/benthos/v4/internal/checkpoint"
-	"github.com/benthosdev/benthos/v4/internal/component/input/span"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/checkpoint"
+	"github.com/usedatabrew/benthos/v4/internal/component/input/span"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 const (

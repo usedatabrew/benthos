@@ -1,6 +1,6 @@
 package output
 
-import "github.com/benthosdev/benthos/v4/internal/batch/policy/batchconfig"
+import "github.com/usedatabrew/benthos/v4/internal/batch/policy/batchconfig"
 
 // BrokerConfig contains configuration fields for the Broker output type.
 type BrokerConfig struct {

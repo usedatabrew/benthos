@@ -18,7 +18,7 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
+	"github.com/usedatabrew/benthos/v4/internal/filepath/ifs"
 )
 
 // AuthConfig contains configuration params for various HTTP auth strategies.

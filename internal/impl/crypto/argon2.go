@@ -10,8 +10,8 @@ import (
 	"go.uber.org/multierr"
 	"golang.org/x/crypto/argon2"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
+	"github.com/usedatabrew/benthos/v4/public/bloblang"
 )
 
 var errInvalidArgon2Hash = errors.New("invalid argon2 hash")

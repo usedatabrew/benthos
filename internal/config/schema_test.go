@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/component/cache"
+	"github.com/usedatabrew/benthos/v4/internal/component/cache"
 )
 
 func TestConfigClone(t *testing.T) {

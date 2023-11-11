@@ -9,12 +9,12 @@ import (
 	"github.com/nsf/jsondiff"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/parser"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/log"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/parser"
+	"github.com/usedatabrew/benthos/v4/internal/component/metrics"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/filepath/ifs"
+	"github.com/usedatabrew/benthos/v4/internal/log"
 )
 
 // FieldConfig describes a configuration field used in the template.

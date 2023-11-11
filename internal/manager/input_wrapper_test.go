@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	bmock "github.com/benthosdev/benthos/v4/internal/manager/mock"
+	"github.com/usedatabrew/benthos/v4/internal/component/input"
+	bmock "github.com/usedatabrew/benthos/v4/internal/manager/mock"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

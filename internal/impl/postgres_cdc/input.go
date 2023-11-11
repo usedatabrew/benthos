@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/benthosdev/benthos/v4/public/service"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/lucasepe/codename"
+	"github.com/usedatabrew/benthos/v4/public/service"
 	"github.com/usedatabrew/pglogicalstream"
 	"strings"
 )

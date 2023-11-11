@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 //------------------------------------------------------------------------------

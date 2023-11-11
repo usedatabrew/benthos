@@ -3,14 +3,14 @@ package config
 import (
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/benthosdev/benthos/v4/internal/api"
-	tdocs "github.com/benthosdev/benthos/v4/internal/cli/test/docs"
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/component/tracer"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	"github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/stream"
+	"github.com/usedatabrew/benthos/v4/internal/api"
+	tdocs "github.com/usedatabrew/benthos/v4/internal/cli/test/docs"
+	"github.com/usedatabrew/benthos/v4/internal/component/metrics"
+	"github.com/usedatabrew/benthos/v4/internal/component/tracer"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/log"
+	"github.com/usedatabrew/benthos/v4/internal/manager"
+	"github.com/usedatabrew/benthos/v4/internal/stream"
 )
 
 // Type is the Benthos service configuration struct.

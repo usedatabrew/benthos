@@ -1,8 +1,8 @@
 package pure
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/component/interop"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/component/interop"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 func batchedInputConfig() *service.ConfigSpec {

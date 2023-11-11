@@ -3,7 +3,7 @@ package input
 import (
 	"context"
 
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 // Streamed is a common interface implemented by inputs and provides channel

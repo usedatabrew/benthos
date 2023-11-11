@@ -3,8 +3,8 @@ package splunk
 import (
 	_ "embed"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	"github.com/benthosdev/benthos/v4/internal/template"
+	"github.com/usedatabrew/benthos/v4/internal/bundle"
+	"github.com/usedatabrew/benthos/v4/internal/template"
 )
 
 //go:embed template_output.yaml

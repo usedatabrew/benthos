@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/integration"
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
+	"github.com/usedatabrew/benthos/v4/internal/integration"
+	_ "github.com/usedatabrew/benthos/v4/public/components/pure"
 )
 
 func TestIntegrationAzure(t *testing.T) {

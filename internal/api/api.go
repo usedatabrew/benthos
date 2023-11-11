@@ -14,9 +14,9 @@ import (
 	"github.com/gorilla/mux"
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/httpserver"
-	"github.com/benthosdev/benthos/v4/internal/log"
+	"github.com/usedatabrew/benthos/v4/internal/component/metrics"
+	"github.com/usedatabrew/benthos/v4/internal/httpserver"
+	"github.com/usedatabrew/benthos/v4/internal/log"
 )
 
 // Config contains the configuration fields for the Benthos API.

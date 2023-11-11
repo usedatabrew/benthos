@@ -7,9 +7,9 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
+	"github.com/usedatabrew/benthos/v4/public/bloblang"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 func redisScriptProcConfig() *service.ConfigSpec {

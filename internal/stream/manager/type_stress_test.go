@@ -10,12 +10,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	bmanager "github.com/benthosdev/benthos/v4/internal/manager"
-	"github.com/benthosdev/benthos/v4/internal/stream"
-	"github.com/benthosdev/benthos/v4/internal/stream/manager"
+	bmanager "github.com/usedatabrew/benthos/v4/internal/manager"
+	"github.com/usedatabrew/benthos/v4/internal/stream"
+	"github.com/usedatabrew/benthos/v4/internal/stream/manager"
 
 	// Import pure components for tests.
-	_ "github.com/benthosdev/benthos/v4/internal/impl/pure"
+	_ "github.com/usedatabrew/benthos/v4/internal/impl/pure"
 )
 
 func TestTypeUnderStress(t *testing.T) {

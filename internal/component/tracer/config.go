@@ -5,7 +5,7 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
 )
 
 func init() {

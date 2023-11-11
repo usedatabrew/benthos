@@ -1,6 +1,6 @@
 package bloblang
 
-import "github.com/benthosdev/benthos/v4/internal/bloblang/query"
+import "github.com/usedatabrew/benthos/v4/internal/bloblang/query"
 
 // ExecContext is an optional context provided to advanced functions and methods
 // that contains information about a given mapping at the time the

@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/component/input/batcher"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/component/input"
+	"github.com/usedatabrew/benthos/v4/internal/component/input/batcher"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 // AckFunc is a common function returned by inputs that must be called once for

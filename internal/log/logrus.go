@@ -11,7 +11,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
+	"github.com/usedatabrew/benthos/v4/internal/filepath/ifs"
 )
 
 // Config holds configuration options for a logger object.

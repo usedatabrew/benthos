@@ -2,5 +2,5 @@ package dgraph
 
 import (
 	// Bring in the internal plugin definitions.
-	_ "github.com/benthosdev/benthos/v4/internal/impl/dgraph"
+	_ "github.com/usedatabrew/benthos/v4/internal/impl/dgraph"
 )

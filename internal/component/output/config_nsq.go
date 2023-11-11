@@ -1,7 +1,7 @@
 package output
 
 import (
-	btls "github.com/benthosdev/benthos/v4/internal/tls"
+	btls "github.com/usedatabrew/benthos/v4/internal/tls"
 )
 
 // NSQConfig contains configuration fields for the NSQ output type.

@@ -143,7 +143,7 @@ By default Benthos does not build with components that require linking to extern
 
 ```shell
 # With go
-go install -tags "x_benthos_extra" github.com/benthosdev/benthos/v4/cmd/benthos@latest
+go install -tags "x_benthos_extra" github.com/usedatabrew/benthos/v4/cmd/benthos@latest
 
 # Using make
 make TAGS=x_benthos_extra
@@ -192,8 +192,8 @@ Contributions are welcome, please [read the guidelines](CONTRIBUTING.md), come a
 [plugin-repo]: https://github.com/benthosdev/benthos-plugin-example
 [getting-started]: https://www.benthos.dev/docs/guides/getting_started
 
-[godoc-badge]: https://pkg.go.dev/badge/github.com/benthosdev/benthos/v4/public
-[godoc-url]: https://pkg.go.dev/github.com/benthosdev/benthos/v4/public
+[godoc-badge]: https://pkg.go.dev/badge/github.com/usedatabrew/benthos/v4/public
+[godoc-url]: https://pkg.go.dev/github.com/usedatabrew/benthos/v4/public
 [actions-badge]: https://github.com/benthosdev/benthos/actions/workflows/test.yml/badge.svg
 [actions-url]: https://github.com/benthosdev/benthos/actions/workflows/test.yml
 [discord-badge]: https://img.shields.io/discord/746368194196799589

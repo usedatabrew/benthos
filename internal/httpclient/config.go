@@ -6,11 +6,11 @@ import (
 	"github.com/Jeffail/gabs/v2"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/docs/interop"
-	"github.com/benthosdev/benthos/v4/internal/metadata"
-	"github.com/benthosdev/benthos/v4/internal/tls"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/docs/interop"
+	"github.com/usedatabrew/benthos/v4/internal/metadata"
+	"github.com/usedatabrew/benthos/v4/internal/tls"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 // ConfigField returns a public API config field spec for an HTTP component,

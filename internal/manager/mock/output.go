@@ -3,7 +3,7 @@ package mock
 import (
 	"context"
 
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 // OutputWriter provides a mock implementation of types.OutputWriter.

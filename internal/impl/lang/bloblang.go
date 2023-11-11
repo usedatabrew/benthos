@@ -13,8 +13,8 @@ import (
 	"github.com/oklog/ulid"
 	frand "golang.org/x/exp/rand"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
+	"github.com/usedatabrew/benthos/v4/public/bloblang"
 )
 
 func init() {

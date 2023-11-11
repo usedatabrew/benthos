@@ -6,7 +6,7 @@ package query
 import (
 	"fmt"
 
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 type badFunctionErr string

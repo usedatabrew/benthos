@@ -7,9 +7,9 @@ import (
 
 	yaml "gopkg.in/yaml.v3"
 
-	iprocessor "github.com/benthosdev/benthos/v4/internal/component/processor"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	iprocessor "github.com/usedatabrew/benthos/v4/internal/component/processor"
+	"github.com/usedatabrew/benthos/v4/internal/filepath/ifs"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 // InputPart defines an input part for a test case.

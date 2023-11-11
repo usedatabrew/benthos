@@ -6,7 +6,7 @@ package shared
 import (
 	"errors"
 
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
 )
 
 // Will holds configuration for the last will message that the broker emits,

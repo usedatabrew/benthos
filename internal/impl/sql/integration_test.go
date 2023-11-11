@@ -14,12 +14,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	isql "github.com/benthosdev/benthos/v4/internal/impl/sql"
-	"github.com/benthosdev/benthos/v4/internal/integration"
-	"github.com/benthosdev/benthos/v4/public/service"
+	isql "github.com/usedatabrew/benthos/v4/internal/impl/sql"
+	"github.com/usedatabrew/benthos/v4/internal/integration"
+	"github.com/usedatabrew/benthos/v4/public/service"
 
-	_ "github.com/benthosdev/benthos/v4/public/components/pure"
-	_ "github.com/benthosdev/benthos/v4/public/components/sql"
+	_ "github.com/usedatabrew/benthos/v4/public/components/pure"
+	_ "github.com/usedatabrew/benthos/v4/public/components/sql"
 )
 
 type testFn func(t *testing.T, driver, dsn, table string)

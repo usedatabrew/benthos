@@ -11,8 +11,8 @@ import (
 
 	"github.com/pebbe/zmq4"
 
-	"github.com/benthosdev/benthos/v4/internal/component"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/component"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 func zmqOutputConfig() *service.ConfigSpec {
@@ -25,7 +25,7 @@ By default Benthos does not build with components that require linking to extern
 
 ` + "```shell" + `
 # With go
-go install -tags "x_benthos_extra" github.com/benthosdev/benthos/v4/cmd/benthos@latest
+go install -tags "x_benthos_extra" github.com/usedatabrew/benthos/v4/cmd/benthos@latest
 
 # Using make
 make TAGS=x_benthos_extra

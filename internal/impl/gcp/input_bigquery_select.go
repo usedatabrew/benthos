@@ -9,9 +9,9 @@ import (
 	"cloud.google.com/go/bigquery"
 	"google.golang.org/api/iterator"
 
-	"github.com/benthosdev/benthos/v4/internal/shutdown"
-	"github.com/benthosdev/benthos/v4/public/bloblang"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/shutdown"
+	"github.com/usedatabrew/benthos/v4/public/bloblang"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 type bigQuerySelectInputConfig struct {

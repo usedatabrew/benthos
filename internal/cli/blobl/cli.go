@@ -11,12 +11,12 @@ import (
 	"github.com/fatih/color"
 	"github.com/urfave/cli/v2"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/mapping"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/parser"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/mapping"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/parser"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
+	"github.com/usedatabrew/benthos/v4/internal/filepath/ifs"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 )
 
 var red = color.New(color.FgRed).SprintFunc()

@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/batch/policy"
-	"github.com/benthosdev/benthos/v4/internal/batch/policy/batchconfig"
-	"github.com/benthosdev/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/batch/policy"
+	"github.com/usedatabrew/benthos/v4/internal/batch/policy/batchconfig"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
 )
 
 func TestBatchPolicySanit(t *testing.T) {

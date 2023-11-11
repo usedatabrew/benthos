@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"github.com/benthosdev/benthos/v4/internal/bloblang/field"
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/field"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
 )
 
 func intoStaticResolver(p Func) Func {

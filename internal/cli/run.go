@@ -9,17 +9,17 @@ import (
 	"github.com/urfave/cli/v2"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/parser"
-	"github.com/benthosdev/benthos/v4/internal/cli/blobl"
-	"github.com/benthosdev/benthos/v4/internal/cli/common"
-	"github.com/benthosdev/benthos/v4/internal/cli/studio"
-	clitemplate "github.com/benthosdev/benthos/v4/internal/cli/template"
-	"github.com/benthosdev/benthos/v4/internal/cli/test"
-	"github.com/benthosdev/benthos/v4/internal/config"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/filepath"
-	"github.com/benthosdev/benthos/v4/internal/filepath/ifs"
-	"github.com/benthosdev/benthos/v4/internal/template"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/parser"
+	"github.com/usedatabrew/benthos/v4/internal/cli/blobl"
+	"github.com/usedatabrew/benthos/v4/internal/cli/common"
+	"github.com/usedatabrew/benthos/v4/internal/cli/studio"
+	clitemplate "github.com/usedatabrew/benthos/v4/internal/cli/template"
+	"github.com/usedatabrew/benthos/v4/internal/cli/test"
+	"github.com/usedatabrew/benthos/v4/internal/config"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/filepath"
+	"github.com/usedatabrew/benthos/v4/internal/filepath/ifs"
+	"github.com/usedatabrew/benthos/v4/internal/template"
 )
 
 // Build stamps.
@@ -34,7 +34,7 @@ func init() {
 	}
 	if info, ok := debug.ReadBuildInfo(); ok {
 		for _, mod := range info.Deps {
-			if mod.Path == "github.com/benthosdev/benthos/v4" {
+			if mod.Path == "github.com/usedatabrew/benthos/v4" {
 				if mod.Version != "(devel)" {
 					Version = mod.Version
 				}

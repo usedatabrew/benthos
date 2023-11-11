@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
-	"github.com/benthosdev/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/internal/component/input"
+	"github.com/usedatabrew/benthos/v4/internal/manager/mock"
+	"github.com/usedatabrew/benthos/v4/internal/message"
 
-	_ "github.com/benthosdev/benthos/v4/internal/impl/io"
+	_ "github.com/usedatabrew/benthos/v4/internal/impl/io"
 )
 
 func readMsg(t *testing.T, tranChan <-chan message.Transaction) message.Batch {

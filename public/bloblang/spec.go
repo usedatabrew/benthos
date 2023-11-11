@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
 )
 
 // ParamDefinition describes a single parameter for a function or method.

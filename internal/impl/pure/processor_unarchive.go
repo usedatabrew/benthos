@@ -12,8 +12,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/benthosdev/benthos/v4/internal/message"
-	"github.com/benthosdev/benthos/v4/public/service"
+	"github.com/usedatabrew/benthos/v4/internal/message"
+	"github.com/usedatabrew/benthos/v4/public/service"
 )
 
 func unarchiveProcConfig() *service.ConfigSpec {

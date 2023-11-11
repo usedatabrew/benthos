@@ -11,11 +11,11 @@ import (
 	client "github.com/influxdata/influxdb1-client/v2"
 	"github.com/rcrowley/go-metrics"
 
-	"github.com/benthosdev/benthos/v4/internal/bundle"
-	imetrics "github.com/benthosdev/benthos/v4/internal/component/metrics"
-	"github.com/benthosdev/benthos/v4/internal/docs"
-	"github.com/benthosdev/benthos/v4/internal/log"
-	btls "github.com/benthosdev/benthos/v4/internal/tls"
+	"github.com/usedatabrew/benthos/v4/internal/bundle"
+	imetrics "github.com/usedatabrew/benthos/v4/internal/component/metrics"
+	"github.com/usedatabrew/benthos/v4/internal/docs"
+	"github.com/usedatabrew/benthos/v4/internal/log"
+	btls "github.com/usedatabrew/benthos/v4/internal/tls"
 )
 
 func init() {

@@ -3,7 +3,7 @@ package parser
 import (
 	"fmt"
 
-	"github.com/benthosdev/benthos/v4/internal/bloblang/query"
+	"github.com/usedatabrew/benthos/v4/internal/bloblang/query"
 )
 
 func matchCaseParser(pCtx Context) Func {

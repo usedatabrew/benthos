@@ -14,10 +14,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/benthosdev/benthos/v4/internal/component/input"
-	"github.com/benthosdev/benthos/v4/internal/manager/mock"
+	"github.com/usedatabrew/benthos/v4/internal/component/input"
+	"github.com/usedatabrew/benthos/v4/internal/manager/mock"
 
-	_ "github.com/benthosdev/benthos/v4/internal/impl/io"
+	_ "github.com/usedatabrew/benthos/v4/internal/impl/io"
 )
 
 func csvInput(t testing.TB, confPattern string, args ...any) input.Streamed {
